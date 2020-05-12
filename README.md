@@ -1,4 +1,4 @@
-# Assignment2---
+# Assignment2
 팀장<br>
 2015722038 정창우(qaqa313a)<br>
 팀원<br>
