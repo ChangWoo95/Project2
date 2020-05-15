@@ -59,13 +59,13 @@ void blockcmp(){
 	stat("text1", &stat1);
    	stat("text2", &stat2);
 	
-	printf("block compare\n\n");
+	printf("block compare\n");
 	if(stat1.st_blocks > stat2.st_blocks)
 		printf("text1 is bigger\n\n");
 	else if(stat1.st_blocks < stat2.st_blocks)
 		printf("text2 is bigger\n\n");
 	else
-		printf("size is equal\n\n");
+		printf("blocks are equal\n\n");
 
 } 
 //두 개의 파일 수정 날짜를 비교하는 함수 작성
@@ -80,7 +80,7 @@ void datecmp(){
 	c = time2->tm_mon+1;
 	d = time2->tm_mday;
 
-	printf("date compare\n\n");
+	printf("date compare\n");
 
 	if(a > c) printf("text2 is early\n\n");
 	else if(a < c) printf("text1 is early\n\n");
