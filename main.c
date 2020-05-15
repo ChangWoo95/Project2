@@ -59,7 +59,7 @@ void blockcmp(){
 	stat("text1", &stat1);
    	stat("text2", &stat2);
 	
-	printf("size compare\n\n");
+	printf("block compare\n\n");
 	if(stat1.st_blocks > stat2.st_blocks)
 		printf("text1 is bigger\n\n");
 	else if(stat1.st_blocks < stat2.st_blocks)
